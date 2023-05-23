@@ -1,0 +1,110 @@
+html {
+    background-color: #000000;
+}
+
+body {
+    background-color: #2b2929;
+    color: white;
+    text-align: center;
+    margin: 0% 15%;
+}
+
+/*Navigation appearences*/
+.topnav {
+    background-color: #030303;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #6AB547;
+    color: white;
+}
+
+.topnav button {
+    float:right;
+    margin: 13px 0px 0px 0px;
+    border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+}
+
+
+
+/*Tool tip when hovering over the dark mode button*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 1px;
+    right: 110%;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+  }
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  
+    .card{
+      border-color: black;
+    }
+    .card-body{
+      background-color: #6AB547;
+      color: black;
+    }
+
+
+td {
+    padding: 10px;
+}
+
+#map{
+  width: 400px;
+  height: 300px;
+  margin-left: 35%;
+}
+
+footer {
+    background-color: #0D0A0B;
+    color: white;
+}
+
+.footer{
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
